@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Sour Gummy", serif;
+    flex-direction: column;
+}
+
+header {
+background-color: darkolivegreen;
+color: aliceblue;
+padding: 74px;
+text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: 400;
+    gap: 5px;
+}
+
+li {
+    float: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-family: "Sour Gummy";
+    white-space: nowrap;
+}
+
+li a:hover {
+    background-color: aliceblue;
+    border-radius: 110%;
+}
+
+
+
+#Resumo {
+    display: block;
+    background-color: #D9E4D7;
+    width: 490PX;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-top: 90px;
+}
+
+.Bloco {
+display: flex;
+align-items: center;
+gap: 20px;
+background-color: #D9E4D7;
+padding: 30px;
+width: fit-content;
+max-width: 800px;
+}
+
+#Importancia {
+    font-size: 28px;
+    margin-bottom: 16px;
+    border-bottom: 2px;
+    margin-bottom: 25px;
+}
+
+.Fotos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+
+}
+
+.Bio-01 {
+    width: 100%;
+    max-width: 180px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #D9E4D7;
+    transition: transform 0.2s ease-in-out;
+    margin-top: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Bio-01:hover {
+    transform: translateY(-5px);
+}
+
+.Bio-01 img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.Bio-01 img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.Bio-02 {
+    width: 100%;
+    max-width: 180px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #D9E4D7;
+    transition: transform 0.2s ease-in-out;
+    margin-top: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Bio-02:hover {
+    transform: translateY(-5px);
+}
+
+.Bio-02 img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.Bio-02 img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+footer {
+    background-color: #768064;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1rem;
+}
