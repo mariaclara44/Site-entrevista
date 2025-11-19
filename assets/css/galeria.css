@@ -54,31 +54,69 @@ li a:hover {
     border-radius: 110%;
 }
 
-.Entrevista {
-    column-count: 3;
-    column-gap: 40px;
-    text-align: justify;
-    font-size: 16px;
-    /*margin-left: 4px;
-    margin-right: 4px;*/
-    background-color: #BECFBB;
+
+
+.bloco {
+display: flex;
+align-items: center;
+gap: 20px;
+padding: 30px;
+width: fit-content;
+max-width: 800px;
+}
+
+#Galeria {
+    font-size: 28px;
+    margin-bottom: 16px;
+    border-bottom: 2px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#Galeria h2 {
+    align-items: center;
+    text-align: center;
+}
+
+.Fotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: flex-start;
+    gap: 20px;
 }
 
-.Entrevista h4 {
-    margin-top: 9%;
-
+.Bio {
+    width: 100%;
+    max-width: 180px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #D9E4D7;
+    transition: transform 0.2s ease-in-out;
+    margin-top: 30px;
+    align-items: center;
+    height: 365px;
 }
 
-.Entrevista h5 {
-    margin-top: 8%;
+.Bio:hover {
+    transform: translateY(-5px);
 }
-.Entrevista p {
-    align-items: flex-start;
+
+.Bio img {
+    width: 100%;
+    height: 250px;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    transition: transform 0.3s ease;
+    object-fit: cover;
 }
-.Entrevista h5 {
-    margin-top: 8%;
+
+.Bio img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
+
 
 footer {
     background-color: #4c583e;
@@ -86,6 +124,7 @@ footer {
     text-align: center;
     padding: 2rem;
     width: 100%;
+    margin-top: 25px;
 }
 
 footer p {
