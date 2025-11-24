@@ -63,8 +63,8 @@ li a:hover {
     margin: 0 auto;
     padding: 30px;
     border-radius: 20px;
-    margin-bottom: 40px;
-    margin-top: 100px;
+    margin-bottom: 60px;
+    margin-top: 60px;
     text-align: center;
 }
 
@@ -77,9 +77,9 @@ display: flex;
 align-items: center;
 gap: 20px;
 background-color: #D9E4D7;
-padding: 30px;
+/*padding: 30px;
 width: fit-content;
-max-width: 800px;
+max-width: 800px; */
 margin-top: 8px;
 }
 
