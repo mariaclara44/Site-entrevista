@@ -77,7 +77,7 @@ li a:hover {
     font-size: 16px;
     /*margin-left: 4px;
     margin-right: 4px;*/
-    background-color: #BECFBB;
+    background-color: #D9E4D7;
     align-items: flex-start;
 }
 
@@ -87,14 +87,13 @@ li a:hover {
 }
 
 .Entrevista h5 {
-    margin-top: 8%;
-}
+    margin-top: 5%;
+} 
+
 .Entrevista p {
     align-items: flex-start;
 }
-.Entrevista h5 {
-    margin-top: 8%;
-}
+
 
 footer {
     background-color: #4c583e;
