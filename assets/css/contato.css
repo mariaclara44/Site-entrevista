@@ -54,6 +54,22 @@ li a:hover {
     border-radius: 110%;
 }
 
+.Titulo {
+    width: 95%;
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.fileira {
+    width: 90%;
+    height: 2px;
+    background-color: black;
+    margin: 0 auto 3rem auto;
+    margin-top: 13px;
+}
+
 .Entrevista {
     column-count: 3;
     column-gap: 40px;
